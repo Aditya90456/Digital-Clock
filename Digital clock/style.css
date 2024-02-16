@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{ 
+    background-color: blue;
+    height: 7vh;
+    text-align: center;
+    padding-top: 16px;
+}
+#timehead{
+    font-size: 26px;
+    color:white;
+
+}
+.container{
+    display: flex;   
+    padding-top: 15%;
+    justify-content: space-evenly;
+}
+.hr{
+    height: 12vh;
+    width: 12vw;
+    background-color: black;
+}
+#hour{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    padding-left: 40%;
+    padding-top: 14%;
+}
+.min{
+    height: 12vh;
+    width: 12vw;
+    background-color: black;
+}
+#minute{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    padding-left: 40%;
+    padding-top: 14%;
+}
+.sec{
+    height: 12vh;
+    width: 12vw;
+    background-color: black;
+}
+#second {
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    padding-left: 40%;
+    padding-top: 14%;
+}
